@@ -7,6 +7,7 @@
 #include <QDesktopWidget>
 #include <QtGui>
 #include <QtCore>
+#include "cadpro.h"
 
 Desktop::Desktop(QWidget *parent) :
     QMainWindow(parent),
@@ -45,4 +46,9 @@ void Desktop::loadSubWindow(QWidget *widget)
         )
     );
     window->show();
+}
+
+void Desktop::on_action_Produtos_triggered()
+{
+    loadSubWindow(new cadpro(this));
 }

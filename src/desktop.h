@@ -24,6 +24,8 @@ private slots:
 
     void loadSubWindow(QWidget *widget);
 
+    void on_action_Produtos_triggered();
+
 private:
     Ui::Desktop *ui;
 };

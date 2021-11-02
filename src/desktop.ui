@@ -39,6 +39,8 @@
      <string>&amp;Cadastros</string>
     </property>
     <addaction name="action_Times"/>
+    <addaction name="separator"/>
+    <addaction name="action_Produtos"/>
    </widget>
    <widget class="QMenu" name="menuVendas">
     <property name="title">
@@ -66,6 +68,11 @@
   <action name="action_Frente_de_Caixa">
    <property name="text">
     <string>&amp;Frente de Caixa</string>
+   </property>
+  </action>
+  <action name="action_Produtos">
+   <property name="text">
+    <string>&amp;Produtos</string>
    </property>
   </action>
  </widget>

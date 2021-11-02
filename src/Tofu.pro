@@ -16,14 +16,17 @@ SOURCES += main.cpp\
     decvar.cpp \
     start.cpp \
     desktop.cpp \
-    fcaixa.cpp
+    fcaixa.cpp \
+    cadpro.cpp
 
 HEADERS  += \
     decvar.h \
     start.h \
     desktop.h \
-    fcaixa.h
+    fcaixa.h \
+    cadpro.h
 
 FORMS    += \
     desktop.ui \
-    fcaixa.ui
+    fcaixa.ui \
+    cadpro.ui
