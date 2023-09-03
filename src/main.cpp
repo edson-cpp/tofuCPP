@@ -1,9 +1,7 @@
-#include "desktop.h"
+#include "m_principal/desktop.h"
 #include <QApplication>
-#include "decvar.h"
+#include "m_principal/decvar.h"
 #include <QMessageBox>
-
-using namespace std;
 
 int main(int argc, char *argv[])
 {

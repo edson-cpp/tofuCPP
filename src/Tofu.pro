@@ -13,20 +13,20 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-    decvar.cpp \
-    start.cpp \
-    desktop.cpp \
-    fcaixa.cpp \
-    cadpro.cpp
+	m_principal/decvar.cpp \
+	m_principal/start.cpp \
+	m_principal/desktop.cpp \
+	m_vendas/fcaixa.cpp \
+	m_cadastros/cadpro.cpp
 
 HEADERS  += \
-    decvar.h \
-    start.h \
-    desktop.h \
-    fcaixa.h \
-    cadpro.h
+	m_principal/decvar.h \
+	m_principal/start.h \
+	m_principal/desktop.h \
+	m_vendas/fcaixa.h \
+	m_cadastros/cadpro.h
 
 FORMS    += \
-    desktop.ui \
-    fcaixa.ui \
-    cadpro.ui
+	m_principal/desktop.ui \
+	m_vendas/fcaixa.ui \
+	m_cadastros/cadpro.ui
